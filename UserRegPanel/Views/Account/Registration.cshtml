@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/registration.css" rel="stylesheet" type="text/css" />
+</head>
+
+    <body>
+
+        <div class="form-group" id="div_reg" name ="form">
+
+            <h3 id="title" class="titleReg">Registration</h3>
+
+            <div class="form-group" id="div_email">
+                <text id="text_email" class="title">Email</text> <input placeholder="f.ex: John@example.com" name="userEmail" type="email" class="form-control" id="inp_email" />
+            </div>
+
+            <div class="form-group" id="div_username">
+                <text id="text_username" class="title">Username</text> <input name="userName" type="text" class="form-control" id="inp_username" />
+            </div>
+
+            <div class="form-group" id="div_name">
+                <text id="text_name" class="title">Name</text> <input name="name" type="text" class="form-control" id="inp_name" />
+            </div>
+
+            <div class="form-group" id="div_lastname">
+                <text id="text_lastname" class="title">Last Name</text> <input name="lastName" type="text" class="form-control" id="inp_lastname" />
+            </div>
+
+            <div class="form-group" id="div_password">
+                <text id="text_password" class="title">Password</text> <input name="userPassword" type="password" class="form-control" id="inp_password" />
+            </div>
+
+            <div class="form-group" id="div_conf_password">
+                <text id="text_conf_password" class="title">Confirm Password</text> <input name="confirmPassword" type="password" class="form-control" id="inp_conf_password" />
+            </div>
+
+            <div class="form-group" id="div_butt">
+                <button id="submit_butt">Submit</button>
+            </div>
+
+        </div>
+
+
+        <script src="~/Scripts/registration.js"></script>
+    </body>
+
+</html>

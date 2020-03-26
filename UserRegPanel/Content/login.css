@@ -1,0 +1,45 @@
+﻿body {
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+    margin: auto;
+}
+
+#div_log {
+    display: inline-block;
+    margin-top: 100px;
+    border: groove;
+    padding: 0px 7px 0px 7px;
+}
+
+.titleLog {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px 4px #323;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px 4px #323;
+    font-size: 16px;
+}
+
+.form-control {
+    width: 300px;
+    height: 27px;
+    background-color: rgb(27, 26, 26);
+    color: rgb(178, 174, 174);
+    font-family: 'Lucida Calligraphy';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit_butt {
+    background-color: rgb(128, 128, 128);
+    border: groove;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px 4px #323;
+}

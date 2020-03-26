@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="form-group" id="div_log" name="form">
+
+        <h3 id="title" class="titleLog">Login</h3>
+
+        <div class="form-group" id="div_email">
+            <text id="text_email" class="title">Email</text> <input placeholder="f.ex: John@example.com" name="userEmail" type="email" class="form-control" id="inp_email" />
+        </div>
+
+        <div class="form-group" id="div_password">
+            <text id="text_password" class="title">Password</text> <input name="userPassword" type="password" class="form-control" id="inp_password" />
+        </div>
+
+        <div class="form-group" id="div_error">
+            @ViewBag.error
+        </div>
+
+        <div class="form-group" id="div_butt">
+            <button id="submit_butt">Submit</button>
+        </div>
+
+    </div>
+
+
+    <script src="~/Scripts/login.js"></script>
+</body>
+
+</html>
