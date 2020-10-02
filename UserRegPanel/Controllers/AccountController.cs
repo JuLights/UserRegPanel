@@ -29,7 +29,6 @@ namespace UserRegPanel.Controllers
         [System.Web.Mvc.HttpPost]
         public JsonResult CheckEmailAvailability(string userdata) //emailCheck
         {
-            System.Threading.Thread.Sleep(200);
             var SearchData = db.ConfirmedUsers.Where(x => x.Email == userdata).FirstOrDefault();
             if (SearchData != null)
             {
@@ -43,7 +42,6 @@ namespace UserRegPanel.Controllers
 
         public JsonResult CheckUserAvailability(string userdata)  //userCheck
         {
-            System.Threading.Thread.Sleep(200);
             var SearchData = db.ConfirmedUsers.Where(x => x.Username == userdata).FirstOrDefault();
             if (SearchData != null)
             {
@@ -58,7 +56,6 @@ namespace UserRegPanel.Controllers
         [System.Web.Mvc.HttpPost]
         public JsonResult Registration(UnconfirmedUsers userdata)
         {
-            System.Threading.Thread.Sleep(200);
 
             if (userdata != null)
             {
